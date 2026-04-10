@@ -6,6 +6,10 @@ import { ArticleMdx } from "@/components/article-mdx";
 import { getAllPosts, getPostBySlug } from "@/lib/posts";
 import { siteName, siteUrl } from "@/lib/site";
 
+export const dynamic = "force-static";
+/** Lets `output: "export"` succeed when `generateStaticParams` returns []. */
+export const revalidate = 0;
+
 type Props = { params: Promise<{ slug: string }> };
 
 export async function generateStaticParams() {

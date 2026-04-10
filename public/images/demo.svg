@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-label="Demo figure placeholder">
-  <rect width="480" height="200" fill="#1c1917" rx="8"/>
-  <text x="240" y="100" text-anchor="middle" fill="#fafaf9" font-family="system-ui,sans-serif" font-size="18">Screenshot or diagram</text>
-  <text x="240" y="128" text-anchor="middle" fill="#a8a29e" font-family="system-ui,sans-serif" font-size="13">Drop files into public/images/</text>
-</svg>

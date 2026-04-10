@@ -30,20 +30,12 @@ export default function Home() {
           <section className="space-y-4 text-base leading-relaxed text-[var(--foreground)]">
             <h1 className="sr-only">About</h1>
             <p>
-              Hi! I&apos;m Nirmal. This is where I try to connect the dots
-              between what I&apos;m working on, what I&apos;m reading, and what
-              I can&apos;t stop thinking about.
+              Hi, I&apos;m Nirmal. Short notes here on what I&apos;m building,
+              reading, and thinking about—mostly data, risk, startups, tech, and
+              how to operate when things are uncertain.
             </p>
             <p>
-              I spend most of my time thinking about data, risk, startups, and
-              technology — not as separate interests, but as different views of
-              the same underlying question: how do you build in a world
-              that&apos;s fundamentally uncertain?
-            </p>
-            <p>
-              This site is equal parts notebook and workshop. If something here
-              sparks a thought, or you spot something wrong, I&apos;d love to
-              hear about it. You can find me on{" "}
+              If something&apos;s useful or off, feel free to reach out! On{" "}
               <ExtLink href={contact.twitter}>Twitter</ExtLink> or{" "}
               <a
                 href={contact.email}
@@ -63,21 +55,19 @@ export default function Home() {
             </h2>
             <div className="mt-4 space-y-4 text-base leading-relaxed text-[var(--foreground)]">
               <p>
-                Recently I was a research resident at South Park Commons — first
-                exploring AI-native marketplaces, then focusing on hallucination
-                reduction and LLM reliability. I co-authored work on decorrelating
-                parallel representations within a model to reduce hallucination,
-                similar to portfolio diversification, and on reframing multi-head
-                attention as a game between strategic agents. Both bets on a
-                similar idea: that explicit second-moment error reduction is a
-                useful lever for tail reliability.
+                In 2025, I was a research resident at South Park Commons, focused
+                on hallucination reduction and LLM reliability. I co-authored work
+                on decorrelating parallel representations within a model to reduce
+                hallucination, similar to portfolio diversification, and on
+                reframing multi-head attention as a game between strategic agents.
+                Both bets on a similar idea: that explicit second-moment error
+                reduction is a useful lever for tail reliability.
               </p>
               <p>
-                Before that, at Abnormal, I built
-                ML systems that detected account takeovers across hundreds of
-                millions of events—streaming sign-in telemetry, ensemble detectors,
-                and internal tooling that had to keep iteration and analyst
-                workflows honest at that volume.
+                From 2021 to 2024, at Abnormal, I built ML systems that detected
+                account takeovers across hundreds of millions of events—streaming
+                sign-in telemetry, ensemble detectors, and internal tooling that
+                had to keep iteration and analyst workflows honest at that volume.
               </p>
               <p className="text-[var(--muted)]">
                 I hold a B.A. in Computer Science from Northwestern University
